@@ -48,3 +48,7 @@ def prediction():
     # Return a proper JSON response
 
     return jsonify({"Loan_approval_status": int(result[0])})
+
+if __name__ == "__main__":
+    # host 127.0.0.1 (default) is fine for local dev. Use 0.0.0.0 to allow other machines.
+    app.run(host="127.0.0.1", port=5000, debug=True)
