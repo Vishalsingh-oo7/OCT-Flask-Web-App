@@ -15,7 +15,7 @@ def test_hello_ping(client):
 
 def test_pinger(client):
     resp= client.get('/ping')
-    assert resp.json == {'message':'Hi, I am Vishal'}
+    assert resp.json == {'message':'Hi, I am pinging'}
 
 def test_prediction (client):
     test_data = {
