@@ -1,8 +1,8 @@
 {
     "compatibilities": [
         "EC2",
-        "MANAGED_INSTANCES",
-        "FARGATE"
+        "FARGATE",
+        "MANAGED_INSTANCES"
     ],
     "containerDefinitions": [
         {
@@ -10,13 +10,13 @@
             "environment": [],
             "environmentFiles": [],
             "essential": true,
-            "image": "997962808370.dkr.ecr.eu-north-1.amazonaws.com/loan_app:latest",
+            "image": "997962808370.dkr.ecr.us-east-1.amazonaws.com/loan_app:latest",
             "logConfiguration": {
                 "logDriver": "awslogs",
                 "options": {
                     "awslogs-group": "/ecs/loan-task",
                     "awslogs-create-group": "true",
-                    "awslogs-region": "eu-north-1",
+                    "awslogs-region": "us-east-1",
                     "awslogs-stream-prefix": "ecs"
                 },
                 "secretOptions": []
@@ -44,7 +44,7 @@
     "memory": "3072",
     "networkMode": "awsvpc",
     "placementConstraints": [],
-    "registeredAt": "2025-11-03T07:04:43.669Z",
+    "registeredAt": "2025-11-03T07:57:30.128Z",
     "registeredBy": "arn:aws:iam::997962808370:user/devops_user_2947822_85926",
     "requiresAttributes": [
         {
@@ -81,7 +81,7 @@
         "operatingSystemFamily": "LINUX"
     },
     "status": "ACTIVE",
-    "taskDefinitionArn": "arn:aws:ecs:eu-north-1:997962808370:task-definition/loan-task:1",
+    "taskDefinitionArn": "arn:aws:ecs:us-east-1:997962808370:task-definition/loan-task:1",
     "volumes": [],
     "tags": []
 }
