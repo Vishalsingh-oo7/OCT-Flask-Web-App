@@ -60,7 +60,7 @@ jobs:
         id: task-def
         uses: aws-actions/amazon-ecs-render-task-definition@v1
         with:
-          task-definition: flask_task-revision1.json
+          task-definition: loan-task-revision1.json
           container-name: flask_container
           image: ${{ steps.build-image.outputs.image }}
 
