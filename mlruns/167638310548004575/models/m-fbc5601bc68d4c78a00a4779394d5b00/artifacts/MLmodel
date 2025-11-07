@@ -1,0 +1,22 @@
+artifact_path: file:///c:/Users/LENOVO/Desktop/MLOps/OCT-Flask-Web-App/mlruns/167638310548004575/models/m-fbc5601bc68d4c78a00a4779394d5b00/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.11.9
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.7.1
+mlflow_version: 3.5.1
+model_id: m-fbc5601bc68d4c78a00a4779394d5b00
+model_size_bytes: 9924
+model_uuid: m-fbc5601bc68d4c78a00a4779394d5b00
+prompts: null
+run_id: fa9c11ae13ab4635a991be4531afeb5e
+utc_time_created: '2025-11-07 09:56:03.990108'

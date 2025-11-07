@@ -1,0 +1,10 @@
+artifact_location: file:///c:/Users/LENOVO/Desktop/MLOps/OCT-Flask-Web-App/mlruns/308684307625679961/models/m-6d86e5708db946439e5964cef743bdf8/artifacts
+creation_timestamp: 1762512816797
+experiment_id: '308684307625679961'
+last_updated_timestamp: 1762512828523
+model_id: m-6d86e5708db946439e5964cef743bdf8
+model_type: null
+name: KNN model
+source_run_id: f79c0be404a249d8a5e914912823adb8
+status: 2
+status_message: null

@@ -1,0 +1,10 @@
+artifact_location: file:///c:/Users/LENOVO/Desktop/MLOps/OCT-Flask-Web-App/mlruns/308684307625679961/models/m-4f2e5a645b6f45c3bd2f8b6f56e88270/artifacts
+creation_timestamp: 1762511261114
+experiment_id: '308684307625679961'
+last_updated_timestamp: 1762511270556
+model_id: m-4f2e5a645b6f45c3bd2f8b6f56e88270
+model_type: null
+name: rf model
+source_run_id: c09178b98d59495e8ed32ed522305d78
+status: 2
+status_message: null
