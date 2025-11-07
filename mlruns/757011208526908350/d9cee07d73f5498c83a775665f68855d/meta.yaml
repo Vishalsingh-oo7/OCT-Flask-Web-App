@@ -1,0 +1,14 @@
+artifact_uri: file:///c:/Users/LENOVO/Desktop/MLOps/OCT-Flask-Web-App/mlruns/757011208526908350/d9cee07d73f5498c83a775665f68855d/artifacts
+end_time: 1762533502195
+entry_point_name: ''
+experiment_id: '757011208526908350'
+lifecycle_stage: active
+run_id: d9cee07d73f5498c83a775665f68855d
+run_name: Refrence_run
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1762533481483
+status: 3
+tags: []
+user_id: LENOVO
